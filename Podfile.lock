@@ -1,0 +1,30 @@
+PODS:
+  - MaterialComponents/AnimationTiming (56.0.0)
+  - MaterialComponents/Palettes (56.0.0)
+  - MaterialComponents/private/Application (56.0.0)
+  - MaterialComponents/private/Math (56.0.0)
+  - MaterialComponents/TextFields (56.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (56.0.0):
+    - MaterialComponents/private/Application
+  - MDFInternationalization (1.0.4)
+
+DEPENDENCIES:
+  - MaterialComponents/TextFields
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MaterialComponents
+    - MDFInternationalization
+
+SPEC CHECKSUMS:
+  MaterialComponents: e4edce947dba33f9c4dd14c34024602999afcbed
+  MDFInternationalization: e355b0cebecf53d60233bd267084e49366c82513
+
+PODFILE CHECKSUM: ae9906ccb4953d9cc2e474add22bc78191744d62
+
+COCOAPODS: 1.5.3
